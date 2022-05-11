@@ -39,7 +39,7 @@ module.exports = {
                 SELECT 
                     member_id
                 FROM 
-                    member_test
+                    member
                 WHERE
                     member_id = ? AND deleted_at IS NULL
             `

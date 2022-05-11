@@ -43,7 +43,7 @@ module.exports = async (req) => {
         //region 會員資料 修改
         let uSql = `
             UPDATE 
-                member_test
+                member
             SET 
                 name = ?, 
                 password = AES_ENCRYPT("${password}", "${config.password_secret_key}"),

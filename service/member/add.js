@@ -39,7 +39,7 @@ module.exports = async (req) => {
 
         //region 會員資料 新增 todo 密碼加密匯入
         let iSql = `
-            INSERT INTO member_test (name, account, password) 
+            INSERT INTO member (name, account, password) 
             VALUES (?, ?, AES_ENCRYPT("${password}", "${config.password_secret_key}")) 
         `
 

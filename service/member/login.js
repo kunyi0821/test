@@ -32,7 +32,7 @@ module.exports = async (req) => {
                 account, 
                 AES_DECRYPT(password , "${config.password_secret_key}") as password
             FROM 
-                member_test
+                member
             WHERE 
                 account = ? AND deleted_at IS NULL
         `

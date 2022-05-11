@@ -31,7 +31,7 @@ module.exports = {
                 SELECT
                     account
                 FROM
-                    member_test
+                    member
                 WHERE
                     ${whereFilter.join(" AND ")}
             `

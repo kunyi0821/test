@@ -18,7 +18,7 @@ module.exports = async (req) => {
     try {
         let uSql = `
             UPDATE 
-                member_test
+                member
             SET 
                 deleted_at = CURRENT_TIMESTAMP()
             WHERE
