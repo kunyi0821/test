@@ -1,0 +1,2 @@
+DELETE http://{{ip}}:3000/member
+Content-Type: application/json

@@ -1,0 +1,5 @@
+GET http://{{ip}}:3000/member/info
+Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZW1iZXJfaWQiOjIsImlhdCI6MTY0NzU4NDI4NywiZXhwIjoxNjQ3NjcwNjg3fQ.eG4t_mNHnmfToxYQP9kFhXbtZX98LZ6EFfGVlOxhqqc
+Content-Type: application/json
+
+###

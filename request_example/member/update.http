@@ -1,0 +1,9 @@
+POST http://{{ip}}:3000/member/update
+Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZW1iZXJfaWQiOjEsImlhdCI6MTY0NzU3MTk5NywiZXhwIjoxNjQ3NjU4Mzk3fQ.Wfo21PwoprINTXleDmsEbxOWIDuk4ICTxatsQ5XseJ8
+Content-Type: application/json
+
+{
+  "account": "A0000001",
+  "password": "23456789",
+  "name": "修改用坤"
+}

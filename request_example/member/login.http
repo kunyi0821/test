@@ -1,0 +1,7 @@
+POST http://{{ip}}:3000/member/login
+Content-Type: application/json
+
+{
+  "account": "A0000002",
+  "password": "23456789"
+}
